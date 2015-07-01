@@ -1,0 +1,27 @@
+{
+  "name": "aws-ip-range-to-pfsense",
+  "version": "0.0.1",
+  "description": "Convert AWS Ip Range json to pfsense format",
+  "author": "Julien Graglia",
+  "main": "generate.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/nodejitsu/browsenpm.org"
+},
+  "bugs": {
+  "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+},
+  "keywords": [
+  "nodejitsu",
+  "example",
+  "browsenpm"
+],
+  "dependencies": {
+    "request": "*",
+    "lodash": "*"
+
+  },
+  "devDependencies": {
+  },
+  "license": "Apache 2.0"
+}
