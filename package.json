@@ -17,6 +17,7 @@
   "browsenpm"
 ],
   "dependencies": {
+    "cidr-js": "*",
     "request": "*",
     "lodash": "*"
 
