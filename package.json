@@ -1,28 +1,27 @@
 {
   "name": "aws-ip-range-to-pfsense",
   "version": "0.0.1",
-  "description": "Convert AWS Ip Range json to pfsense format",
+  "description": "Convert AWS & Google Ip Range json to pfsense format",
   "author": "Julien Graglia",
   "main": "generate.js",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/nodejitsu/browsenpm.org"
-},
+    "type": "git",
+    "url": "https://github.com/nodejitsu/browsenpm.org"
+  },
   "bugs": {
-  "url": "https://github.com/nodejitsu/browsenpm.org/issues"
-},
+    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
+  },
   "keywords": [
-  "nodejitsu",
-  "example",
-  "browsenpm"
-],
+    "nodejitsu",
+    "example",
+    "browsenpm"
+  ],
   "dependencies": {
     "cidr-js": "*",
-    "request": "*",
-    "lodash": "*"
-
+    "lodash": "*",
+    "nslookup": "^1.1.1",
+    "request": "*"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "license": "Apache 2.0"
 }
