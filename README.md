@@ -11,3 +11,15 @@ node generate.js
 
 # Build
 npm install
+
+# Run in docker
+in order to skip nodejs install on your machine
+
+
+	docker build . -t ip-range-to-aws
+
+	docker run -p 9615:9615 --rm --name ip-range-to-aws  ip-range-to-aws
+
+then open
+	
+	http://localhost:9615
