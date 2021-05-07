@@ -84,6 +84,8 @@ request({
                     });
                     res.end(content);
                 });
+            } else if (req.url == '/exit') {
+		process.exit()
             } else {
                 res.writeHead(200, {'Content-Type': 'text/plain'});
                 res.end("See /aws/ip and /aws/cidr and google/cidr");
