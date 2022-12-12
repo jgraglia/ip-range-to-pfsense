@@ -21,7 +21,7 @@
     "growl": ">=1.10.0",
     "lodash": "*",
     "mime": "^2.0.3",
-    "minimatch": ">=3.0.2",
+    "minimatch": ">=3.0.5",
     "nslookup": "^1.1.1",
     "request": "*",
     "send": ">=0.11.1"
