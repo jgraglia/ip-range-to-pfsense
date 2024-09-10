@@ -24,7 +24,7 @@
     "minimatch": ">=3.0.5",
     "nslookup": "^1.1.1",
     "request": "*",
-    "send": ">=0.11.1"
+    "send": ">=0.19.0"
   },
   "devDependencies": {},
   "license": "Apache 2.0"
